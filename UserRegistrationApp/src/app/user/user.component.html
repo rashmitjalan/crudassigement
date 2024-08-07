@@ -1,0 +1,73 @@
+<div>
+  <h2>User Registration</h2>
+  <form>
+    <div class="form-group">
+      <label for="fullName">Full Name:</label>
+      <input type="text" [(ngModel)]="userForm.fullName" name="fullName" #fullName="ngModel" placeholder="Full Name" required>
+      <!-- <div *ngIf="fullName.invalid && fullName.touched">
+        <small *ngIf="fullName.errors?.['required']">Full Name is required.</small>
+      </div> -->
+    </div>
+    <div class="form-group">
+      <label for="profileImage">Profile Image:</label>
+  <input type="file" (change)="onFileSelected($event)" name="profileImage">
+    </div>
+    <div>
+      <input type="radio" [(ngModel)]="userForm.gender" name="gender" value="Male"> Male
+      <input type="radio" [(ngModel)]="userForm.gender" name="gender" value="Female"> Female
+    </div>
+    <input type="text" [(ngModel)]="userForm.address" name="address" placeholder="Address" required>
+    <input type="text" [(ngModel)]="userForm.city" name="city" placeholder="City" required>
+    <div class="form-group">
+      <label for="pin">Pin Code:</label>
+      <input type="text" [(ngModel)]="userForm.pin" name="pin" #pin="ngModel" placeholder="Pin" required pattern="^\d{6}$">
+      <!-- <div *ngIf="pin.invalid && pin.touched">
+        <small *ngIf="pin.errors?.['required']">Pin is required.</small>
+        <small *ngIf="pin.errors?.['pattern']">Pin must be a 6-digit number.</small>
+      </div> -->
+    </div>
+    <input type="text" [(ngModel)]="userForm.state" name="state" placeholder="State" required>
+    <div>
+      <label for="country">Countries:</label>
+      <select [(ngModel)]="userForm.country" name="country" required>
+        <option *ngFor="let country of countries" [value]="country">{{ country }}</option>
+      </select>
+    </div>
+    <input type="email" [(ngModel)]="userForm.email" name="email" placeholder="Email" required>
+    <input type="text" [(ngModel)]="userForm.contact" name="contact" placeholder="Contact" required>
+    <input type="text" [(ngModel)]="userForm.educationQualification" name="educationQualification" placeholder="Education Qualification" required>
+    <input type="text" [(ngModel)]="userForm.designation" name="designation" placeholder="Designation" required>
+    <div *ngIf="errorMessage" class="error-message">
+      <p>{{ errorMessage }}</p>
+    </div>
+    <button type="button" (click)="createUser()">Create</button>
+    <button type="button" (click)="updateUser(userForm.id)">Update</button>
+    <button type="button" (click)="resetForm()" class="reset">Reset</button>
+  </form>
+
+  <h2>User List</h2>
+  <table class="user-list">
+    <thead>
+      <tr>
+        <th>Full Name</th>
+        <th>Email</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <td>{{ user.fullName }}</td>
+        <td>{{ user.email }}</td>
+        <td>
+          <button (click)="deleteUser(user.id)" class="delete">Delete</button>
+          <button (click)="setUser(user)" class="edit">Edit</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="pagination-controls">
+    <button (click)="pageNumber = pageNumber - 1; getUsers()" [disabled]="pageNumber <= 1">Previous</button>
+    <button (click)="pageNumber = pageNumber + 1; getUsers()" [disabled]="users.length < pageSize">Next</button>
+  </div>
+</div>

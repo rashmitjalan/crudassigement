@@ -1,0 +1,110 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rashm\\source\\repos\\CrudOperation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2EF649-612B-4167-AF2C-A80C3AE8500C}|CrudOperation\\CrudOperation.csproj|c:\\users\\rashm\\source\\repos\\crudoperation\\crudoperation\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A2EF649-612B-4167-AF2C-A80C3AE8500C}|CrudOperation\\CrudOperation.csproj|solutionrelative:crudoperation\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2EF649-612B-4167-AF2C-A80C3AE8500C}|CrudOperation\\CrudOperation.csproj|c:\\users\\rashm\\source\\repos\\crudoperation\\crudoperation\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A2EF649-612B-4167-AF2C-A80C3AE8500C}|CrudOperation\\CrudOperation.csproj|solutionrelative:crudoperation\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2EF649-612B-4167-AF2C-A80C3AE8500C}|CrudOperation\\CrudOperation.csproj|c:\\users\\rashm\\source\\repos\\crudoperation\\crudoperation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A2EF649-612B-4167-AF2C-A80C3AE8500C}|CrudOperation\\CrudOperation.csproj|solutionrelative:crudoperation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2EF649-612B-4167-AF2C-A80C3AE8500C}|CrudOperation\\CrudOperation.csproj|c:\\users\\rashm\\source\\repos\\crudoperation\\crudoperation\\models\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A2EF649-612B-4167-AF2C-A80C3AE8500C}|CrudOperation\\CrudOperation.csproj|solutionrelative:crudoperation\\models\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2EF649-612B-4167-AF2C-A80C3AE8500C}|CrudOperation\\CrudOperation.csproj|c:\\users\\rashm\\source\\repos\\crudoperation\\crudoperation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7A2EF649-612B-4167-AF2C-A80C3AE8500C}|CrudOperation\\CrudOperation.csproj|solutionrelative:crudoperation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\rashm\\source\\repos\\CrudOperation\\CrudOperation\\Models\\UserDbContext.cs",
+              "RelativeDocumentMoniker": "CrudOperation\\Models\\UserDbContext.cs",
+              "ToolTip": "C:\\Users\\rashm\\source\\repos\\CrudOperation\\CrudOperation\\Models\\UserDbContext.cs",
+              "RelativeToolTip": "CrudOperation\\Models\\UserDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:05:46.971Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\rashm\\source\\repos\\CrudOperation\\CrudOperation\\Models\\User.cs",
+              "RelativeDocumentMoniker": "CrudOperation\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\rashm\\source\\repos\\CrudOperation\\CrudOperation\\Models\\User.cs",
+              "RelativeToolTip": "CrudOperation\\Models\\User.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T13:57:05.767Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\rashm\\source\\repos\\CrudOperation\\CrudOperation\\appsettings.json",
+              "RelativeDocumentMoniker": "CrudOperation\\appsettings.json",
+              "ToolTip": "C:\\Users\\rashm\\source\\repos\\CrudOperation\\CrudOperation\\appsettings.json",
+              "RelativeToolTip": "CrudOperation\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-31T14:07:51.616Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rashm\\source\\repos\\CrudOperation\\CrudOperation\\Program.cs",
+              "RelativeDocumentMoniker": "CrudOperation\\Program.cs",
+              "ToolTip": "C:\\Users\\rashm\\source\\repos\\CrudOperation\\CrudOperation\\Program.cs",
+              "RelativeToolTip": "CrudOperation\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAC4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:12:41.081Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\rashm\\source\\repos\\CrudOperation\\CrudOperation\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "CrudOperation\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\rashm\\source\\repos\\CrudOperation\\CrudOperation\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "CrudOperation\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAYwC0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:22:00.15Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
